@@ -2,6 +2,7 @@
   "name": "ecomm",
   "version": "1.0.0",
   "description": "ecomm ",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +10,8 @@
   "author": "Deepak sharma",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.3"
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
   }
 }
